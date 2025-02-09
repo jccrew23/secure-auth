@@ -1,0 +1,29 @@
+### Create User
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Matthew Long",
+    "email": "mlong@gmail.com",
+    "username": "jdreamer",
+    "password": "password"
+}
+
+### Get User by ID
+GET http://localhost:3000/users/67a82525e576d648f12e5002
+
+### Update User by ID
+PUT http://localhost:3000/users/67a82525e576d648f12e5002
+Content-Type: application/json
+
+{
+    "name": "Joy Sunny",
+    "email": "jsunny@gmail.com",
+    "username": "jsunny",
+    "password": "password"
+}
+
+### Delete User by ID
+DELETE http://localhost:3000/users/67a82525e576d648f12e5002
+
+
